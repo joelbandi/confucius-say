@@ -18,11 +18,10 @@ var client = {
             }
         };
         var TwiML = json2xml(quoteinjson,"");
-        return TwiML;
+        return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"+TwiML;
     }
 
 }
-
 
 
 module.exports=client;
