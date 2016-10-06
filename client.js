@@ -1,5 +1,4 @@
-const twilio = require('twilio')('AC263d89a2492cdc7a15e169077d32ecbf','debb2063f4f6de94098a05f631cd9722');
-const json2xml = require('./json2xml.js');
+const twilio = require('twilio')
 const quotes = require('./quotes');
 
 
@@ -12,16 +11,14 @@ var client = {
 
     getTwiML:function(){
         var quote = this.getQuote();
-        var quoteinjson = {
-            response:{
-                say:quote
-            }
-        };
-        var TwiML = json2xml(quoteinjson,"");
-        return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"+TwiML;
+        var twiml = new twilio.TwimlResponse();
+        twiml.say(quote, { voice: 'man' });
+        console.log(twiml.toString());
+        return twiml.toString()
     }
 
 }
+
 
 
 module.exports=client;
