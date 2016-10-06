@@ -1,10 +1,12 @@
-Everything has its beauty, but not everyone sees it.
-It does not matter how slowly you go so long as you do not stop.
-Our greatest glory is not in never falling, but in rising every time we fall.
-I want you to be everything that's you, deep at the center of your being.
-I hear and I forget. I see and I remember. I do and I understand.
-Wheresoever you go, go with all your heart.
-Choose a job you love, and you will never have to work a day in your life.
-By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.
-Real knowledge is to know the extent of one's ignorance.
-What you do not want done to yourself, do not do to others.
+module.exports={
+    1:"Wife who put husband in doghouse soon find him in cathouse.",
+    2:"Man who run in front of car get tired.",
+    3:"Man who drive like hell bound to get there.",
+    4:"Man who lives in glass house should change clothes in basement",
+    5:"Man who jumps off cliff, jumps to conclusion!",
+    6:"Man standing on toilet is high on pot.",
+    7:"Passionate kiss like spider's web, soon lead to undoing of fly.",
+    8:"Don't drink and park, accidents cause people.",
+    9:"War does not determine who's right, war determines who's left.",
+    10:"What you do not want done to yourself, do not do to others."
+}
