@@ -1,0 +1,15 @@
+{
+  "name": "confucius-say",
+  "version": "1.0.0",
+  "description": "A twilio powered app that tells you a confucius quote everytime you dial a phone number",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joel Bandi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "twilio": "^2.11.0"
+  }
+}
